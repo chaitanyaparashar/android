@@ -1,3 +1,3 @@
 # android
-android is the fastest growing technology in the present time.
+android is the fastest growing technology in present time.
 happy coding..
