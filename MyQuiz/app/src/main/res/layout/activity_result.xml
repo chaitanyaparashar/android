@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F7AB48"
+    android:orientation="vertical"
+    android:layout_centerInParent="true"
+    >
+
+    <TextView
+        android:id="@+id/textResult3"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:background="#F7AB48"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:background="#F7AB48"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="65dp"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+    <TextView
+        android:id="@+id/textResult2"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:background="#F7AB48"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="65dp"
+        android:layout_height="wrap_content"
+        android:text="Large Text"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F7AB48"
+        android:layout_marginTop="50dp"
+        android:padding="20dp"
+        android:layout_gravity="center"
+        android:onClick="playagain"
+        android:text="PLAY AGAIN"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+    <Button
+        android:id="@+id/btnn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#F7AB48"
+        android:layout_marginTop="60dp"
+        android:padding="10dp"
+        android:layout_gravity="center"
+        android:onClick="homes"
+        android:text="Home"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+
+</LinearLayout>
+
+

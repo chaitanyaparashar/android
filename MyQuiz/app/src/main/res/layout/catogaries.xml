@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imager" >
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp">
+        <Button
+            android:id="@+id/Sports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/History"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="10dp"
+            android:background="#8FFF"
+            android:hint="Sports" />
+
+        <Button
+            android:id="@+id/History"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/Sports"
+            android:background="#8FFF"
+            android:hint="History" />
+        <Button
+            android:id="@+id/Politics"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_margin="10dp"
+            android:layout_below="@+id/History"
+            android:background="#8FFF"
+            android:hint="Politics" />
+
+
+        <Button
+            android:id="@+id/Science"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/about"
+            android:layout_margin="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/Politics"
+            android:background="#8FFF"
+            android:hint="Science" />
+        <Button
+            android:id="@+id/Misc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_alignLeft="@+id/about"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/Science"
+            android:background="#8FFF"
+            android:hint="Misc." />
+    </LinearLayout>
+
+
+</RelativeLayout>
